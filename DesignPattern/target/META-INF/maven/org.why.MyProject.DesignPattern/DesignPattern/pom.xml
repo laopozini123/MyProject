@@ -2,13 +2,12 @@
 <project xmlns="http://maven.apache.org/POM/4.0.0">
 
     <modelVersion>4.0.0</modelVersion>
-    <groupId>org.why.MyProject</groupId>
-    <artifactId>MyProject</artifactId>
-    <packaging>pom</packaging>
+    <groupId>org.why.MyProject.DesignPattern</groupId>
+    <artifactId>DesignPattern</artifactId>
     <version>1.0</version>
 
     <build>
-        <finalName>Project</finalName>
+        <finalName>org.why.Project.DesignPattern</finalName>
         <plugins>
             <plugin>
                 <groupId>org.apache.maven.plugins</groupId>
@@ -22,15 +21,6 @@
             </plugin>
         </plugins>
     </build>
-    <modules>
-        <module>AIO</module>
-        <module>methodrefrence</module>
-        <module>regex</module>
-        <module>NIO</module>
-        <module>DesignPattern</module>
-        <module>LeetCode</module>
-        <module>study</module>
-    </modules>
     <dependencies>
         <dependency>
             <groupId>org.hamcrest</groupId>
