@@ -16,5 +16,6 @@ public class MethodReference {
         names.add("二明");
         names.add("小明");
         names.forEach(System.out::println);
+        names.stream().forEach(System.out::println);
     }
 }
